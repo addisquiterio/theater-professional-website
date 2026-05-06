@@ -1,0 +1,42 @@
+body {
+  background-color:#FFFDD0;
+}
+.star1 {
+  position: absolute;
+  animation: star1-ani 10s linear infinite;
+}
+
+@keyframes star1-ani {
+  0%   { opacity: .0; left:0; }
+  50%  { opacity: .5; }
+  100% { opacity: .0; left: 1000px; }
+}
+
+#Waymond {
+  max-width: 100%; /* Image will not exceed its original width or parent container width */
+  height: auto;    /* Maintains aspect ratio */
+}
+nav li a {
+  color: #ffffff;
+  display: block;
+  border: 1px solid #000000;
+  padding: 15px;
+  background-color: #FFB6C1;
+  
+  text-decoration: none;
+
+}
+nav li {
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  width: 180px;
+}
+
+#main{
+  border: 5px solid #000000;
+  width: 1700px;
+ height: 600px;
+ font-size: 30px;
+
+}

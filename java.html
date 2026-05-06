@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Blank 1200</title>
+	<link href="Blank1200px2.css" rel="stylesheet" type="text/css">
+	<!-- add links to the <head>  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<!-- Links and script in <head> -->
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
+
+</head>
+
+
+<body id="wrapper">
+	<header>
+		<h1>main page</h1>
+		<div>
+			<nav>
+				<ul class="roundedbox">
+				<li><a href="page1.html">about me</a></li>
+				<li><a href="page2.html">my work</a></li>
+				<li><a href="page3.html">contact info</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="Waymond">
+		<h2>Waymond</h2>
+		<img id="Waymond" src="Waymond.png" alt="Waymond" />
+
+		<p class="dropshadowbox">this is my first project that I completed for this class</p>
+	</main>
+
+
+
+
+
+	<div id="myCarousel" class="f-carousel">
+		<div class="f-carousel__slide"><img id="work4" src="midterm1.jpg"></div>
+		<div class="f-carousel__slide"><img id="space4" src="midterm2.jpg"></div>
+		<div class="f-carousel__slide"><img id="work5" src="midterm3.jpg"></div>
+	</div>
+
+
+
+	<nav id="Evelyn">
+		<h2>Evelyn</h2>
+        <p>this is my first project that I completed for this class</p>
+		<img id="Evelyn" src="Evelyn.jpg" alt="Evelyn" />
+
+	</nav>
+
+
+
+	<video width="100" height="360" autoplay controls loop preload="auto" >
+		<source src="portfoliovid.mp4" type="video/mp4">
+	  </video>
+
+
+
+
+	<main1 id="Joy">
+		<h2>Joy</h2>
+		<img id="Joy" src="Joy.jpg" alt="Joy" />
+		<p>this is my first project that I completed for this class</p>
+		<a href="https://instagram.com" target="_blank" class="bi bi-instagram"></a>
+
+	</main1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+</body>
+
+</html>
